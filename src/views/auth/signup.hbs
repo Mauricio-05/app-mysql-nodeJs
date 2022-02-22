@@ -1,0 +1,32 @@
+<div class="container p-4">
+    <div class="row">
+        <div class="col-md-4.1 mx-auto">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h3>SignUp</h3>
+                </div>
+                <div class="card-body">
+                    <form action="/signup" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="fullname" placeholder="Full name" class="form-control"
+                                autofocus></input>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="username" placeholder="Username" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" name="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-success btn-block">SignUp</button>
+                        </div>
+
+                        <div class="container pt-3">
+                            <p>Have already an account? <a href="/signin">Login here</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

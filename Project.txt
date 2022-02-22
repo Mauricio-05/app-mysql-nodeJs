@@ -1,0 +1,28 @@
+Dependencias:
+
+Express: Es un framework mas popular de node para la creacion de aplicaciones backend con javascript
+
+Express-handlebars: Es un motor de plantillas de express y otras aplicaciones es para dar la estructura frontend de una web parecido a html pero con mejores funcionalidades.
+
+express-session: administra sessiones de nuestra app. sera necesario autentificar un usuario
+
+mysql: conectarse a una base de dato relacionar en este caso mysql se podra hacer conexiones y consultas.
+
+express-mysql-session: almacena sessiones en la base de datos, en lugar del servidor esto es ideal cuando la aplicacion este en produccion
+
+morgan: permite crear logs o mensajes de que es lo que las aplicaciones clientes estan pidiendo al servidor (Un modulo para hacer registro de las peticiones http que se hagan al servidor desde el cliente)
+
+bcryptjs: usaremos para cifrar las contraseñas de los usuarios antes de guardalos en la base de datos
+
+passport: Modulo para autenticar, y manejar el proceso de login de un usuario en nuestra aplicacion
+
+passport-local: Complemento de passport para autenticar a los usuarios co nnuestra propia base de datos
+
+timeago.js: convierte timestamps o fechas de la base de datos en un formato de : 2 minutos ago, 2 hours ago, etc.
+
+connect-flash: Se usa para mostrar mensajes de error y exito cuando el usuario realice una operacion
+
+express-validator: Modulo para validar los datos que el usuario nos envia desde la aplicacion cliente
+
+
+
